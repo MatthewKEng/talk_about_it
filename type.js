@@ -75,8 +75,9 @@ console.log(value);
 function abc(val) {
 
     val = val.toString();
+    console.log(val);
     if (val.length > 1) {
-        var val = val.substring(1, 2);
+        var val = val.substring(1);
         console.log(val);
         return val;
     }
